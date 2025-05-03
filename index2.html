@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Surprise for My Love 💖</title>
+  <link rel="stylesheet" href="/Valentines--main/static/css/style.css">
+</head>
+
+<body>
+
+  <video class="background-video" autoplay loop muted>
+    <source src="/Valentines--main/static/video/bd.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <audio id="backgroundMusic" autoplay loop muted>
+    <source src="/Valentines--main/static/music/aa.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+  </audio>
+  
+  <button id="startMusic" onclick="startMusic()">Click to Start Music</button>
+  
+
+
+  <div class="card">
+    <h1 id="greeting">Happy Valentine's Day, My Love! ❤️</h1>
+    <p id="loveQuote"></p>
+    <p id="loveMessage"></p>
+    <button onclick="revealMessage()">Click for a Surprise</button>
+    <div class="hidden-message" id="hiddenMessage">
+      <p>🌹 You make my world brighter every day. 💖</p>
+      <button onclick="finalReveal()">Click for More</button>
+    </div>
+    <div class="final-message" id="finalMessage">
+      💌 You are my today, my tomorrow, and my forever. Love you endlessly! 💕
+    </div>
+  </div>
+
+  <script src="/Valentines--main/static/js/script.js">
+   
+  </script>
+
+</body>
+
+</html>
